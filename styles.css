@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(2, 27, 33) ;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+.container1:hover{
+    background-color: rgb(31, 215, 212);
+}
+
+#home {
+    background-color: #efe9e9;
+    padding: 50px 20px;
+}
+.home3:hover{
+    background-color: rgb(20, 195, 220);
+}
+
+
+
+#home h2 {
+    margin-bottom: 20px;
+}
+
+#home .btn {
+    padding: 10px 20px;
+    background-color: #c82530;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.container4{
+    filter: drop-shadow(10px 10px 20px black);
+}
+
+#services .service-box {
+    display: inline-block;
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.services2:hover{
+    background-color: rgb(20, 195, 220);
+}
+
+#trainers .trainer-box {
+    display: inline-block;
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.trainers2:hover{
+    background-color: rgb(20, 190, 220);
+}
+
+#trainers img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.schedule2:hover{
+    background-color: rgb(20, 197, 220);
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+
+
+.container5{
+    filter: drop-shadow(6px 6px 10px black);
+}
+#contact{
+    background-color: black;
+    color: white;
+
+}
+.contact2:hover{
+    background-color: rgb(20, 195, 220);
+}
+.membership2:hover{
+    background-color: rgb(20, 195, 220);
+}
+
+footer {
+    background-color: #35424a;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+ /* Membership Section */
+ #membership {
+    padding: 50px 0px;
+    text-align: center;
+  }
+  
+  #membership h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .membership-plan {
+    background-color: white;
+    padding: 60px;
+    margin: 30px 0px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  .membership-plan,a{
+    text-decoration: none;
+  }
+  .membership-plan .btn{
+    padding: 10px 20px;
+    background-color: #c82530;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .membership-plan h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .membership-plan p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .membership-plan ul {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .membership-plan ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
